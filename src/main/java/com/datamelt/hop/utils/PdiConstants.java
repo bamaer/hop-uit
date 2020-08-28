@@ -75,7 +75,8 @@ public class PdiConstants
 	{
 		HashMap<String, String> replacements = new HashMap<>();
 	    replacements.put("TRANS", "PIPELINE");
-	    
+	    replacements.put("JOB", "WORKFLOW");
+
 	    return replacements;
 	}
 	
@@ -93,7 +94,7 @@ public class PdiConstants
 	    replacements.put("Repository.Directory", "Repository.Folder");
 	    replacements.put("Current.Directory", "Current.Folder");
 	    replacements.put(".ktr", ".hpl");
-	    replacements.put(".kbj", ".hwf");
+	    replacements.put(".kjb", ".hwf");
 	    
 	    return replacements;
 	}
